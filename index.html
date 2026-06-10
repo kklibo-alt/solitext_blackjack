@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/fira_code.min.css"
+    />
+    <link
+      data-trunk rel="rust" data-cargo-features="web" data-cargo-no-default-features
+      href="Cargo.toml" data-wasm-opt="z" data-wasm-opt-params="--enable-bulk-memory --enable-nontrapping-float-to-int"
+    />
+    <title>Blacktext</title>
+    <style>
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: #000;
+      }
+      pre {
+        margin: 0;
+        font-size: 0;
+      }
+      #grid span {
+        font-family: "Fira Code", monospace;
+        font-size: 15px;
+        line-height: 15px;
+        vertical-align: top;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
